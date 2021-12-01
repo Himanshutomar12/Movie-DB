@@ -1,0 +1,53 @@
+<%- include("partials/header") %>
+
+<form class="" action="" method="post">
+
+
+  <div class="secondContent">
+    <h1><strong><%=title%></strong></h1>
+    <div class="flex-container">
+      <div class="">
+        <img src="<%=poster%>" alt="">
+      </div>
+      <div class="movieInfo">
+        <p><%=plot%></p>
+
+
+
+      <div class="rating">
+
+        <div class="card">
+          <i class="fab fa-imdb"></i>
+          <span><%=imdb%></span>
+        </div>
+        <div class="card">
+          <img src="images/rotten.png" alt="">
+          <span><%=rottenTomatoes%></span>
+        </div>
+        <div class="card">
+          <img src="images/metacritic.png" alt="">
+          <span><%=metacritic%></span>
+        </div>
+     </div>
+
+        <p><em>Genre</em> : <%=genre%></p>
+        <p><em>Released Date</em> : <%=released%></p>
+        <p><em>Director</em> : <%=director%></p>
+        <p><em>Award</em> : <%=award%></p>
+        <p><em>Language</em> : <%=language%></p>
+
+      </div>
+    </div>
+  </div>
+
+</form>
+
+<form class="backToHomePage" action="/back" method="post">
+  <div class="text-center">
+    <button type="submit" name="button" class="btn btn-success successButton">Search another movie</button>
+  </div>
+</form>
+
+
+
+<%- include("partials/footer") %>

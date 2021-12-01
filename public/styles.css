@@ -1,0 +1,147 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+height: 100vh;
+color: white;
+}
+
+
+footer{
+  background-color: #212529;
+  height: 5.1rem;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.content form{
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+
+
+.content {
+  background-color: black;
+  height: 100vh;
+  padding: 2.5rem 0 0 0;
+  color: white;
+}
+
+form .searchButton{
+  justify-content: center;
+}
+
+.images {
+  padding: 1.5rem 0 2rem 0;
+
+}
+
+.images img {
+  width:39.7rem;
+  height:25rem;
+  padding: 0 12.5rem 0 12.5rem;
+}
+
+.span1 span{
+  position: absolute;
+  left: 1rem;
+  background-color: grey;
+}
+.span2 span{
+  position: absolute;
+  right: 1rem;
+  background-color: grey;
+}
+
+@media (max-width: 600px){
+  .images img {
+    height: 19rem;
+    padding: 0 1rem 0 1rem;
+  }
+}
+
+
+.secondContent{
+  background-color: white;
+}
+
+.flex-container {
+  display: flex;
+  padding: 4rem;
+}
+
+.movieInfo{
+  text-align: center;
+  position: relative;
+  right: -4rem;
+}
+
+.movieInfo p{
+  text-align: left;
+}
+
+
+
+i {
+  font-size: 3rem;
+
+}
+
+.card {
+  width: 10rem;
+  height: 10rem;
+  padding: 20px;
+  margin: 30px;
+}
+
+.rating{
+  display: flex;
+
+}
+
+
+span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.2rem 0 .2rem 0;
+}
+
+.backToHomePage button {
+  margin-bottom: 2rem;
+}
+
+.text-center img{
+  width: 50vw;
+}
+
+@media (max-width: 600px){
+  .flex-container {
+    display: block;
+    padding: 1.2rem 0 0 1.8rem;
+
+  }
+  .rating{
+    display: block;
+
+  }
+  .movieInfo{
+    position: relative;
+    top: 20px;
+    left: 0;
+  }
+  .card {
+    width: 16rem;
+    height: 11rem;
+    padding: 20px;
+    margin: 30px;
+  }
+  .successButton{
+    margin-top: 1.9rem;
+  }
+
+}
